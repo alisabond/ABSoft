@@ -2,6 +2,7 @@
   npm install
   npm run webdriver-update
 Then create the config.js file in the root directory with the following structure:
+```javascript
   module.exports = {
     email: { // email credentials
         username: '',
@@ -9,6 +10,7 @@ Then create the config.js file in the root directory with the following structur
       },
       screenshotDir: '' // absolute path to screenshots directory
     }
+```
 
 
 # To start the project
