@@ -1,0 +1,28 @@
+{
+  "name": "ab",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "e2e/main.spec.js",
+  "scripts": {
+    "start": "protractor protractor.conf.js",
+    "start:webdriver": "webdriver-manager start",
+    "manager-update": "webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisabond/ABSoft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisabond/ABSoft/issues"
+  },
+  "homepage": "https://github.com/alisabond/ABSoft#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^5.0.2",
+    "nodemailer": "^6.4.6",
+    "protractor": "^7.0.0"
+  }
+}
