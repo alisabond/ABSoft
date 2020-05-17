@@ -1,5 +1,5 @@
 .idea
-/config.js
+config.js
 /screenshots/*
 /node_modules
 # exception to the rule
