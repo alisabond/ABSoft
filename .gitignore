@@ -1,4 +1,6 @@
 .idea
 /config.js
 /screenshots/*
-!/screenshots
+
+# exception to the rule
+!/screenshots/.gitkeep 
