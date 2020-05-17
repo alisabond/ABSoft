@@ -4,3 +4,4 @@ config.js
 /node_modules
 # exception to the rule
 !/screenshots/.gitkeep
+/reports

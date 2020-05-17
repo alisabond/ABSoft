@@ -37,18 +37,19 @@ class MainHelper {
   }
 
   async getImages() {
-    const fileExtension = ['jpg', 'jpeg', 'png', 'svg', 'bmp', 'gif'];
+    const fileExtension = ['jpg', 'jpeg', 'png', 'svg', 'bmp', 'gif', 'tif'];
     for(let i = 0; i < this.responsesData.length; i++) {
       for(let key in this.responsesData[i]) {
         if(typeof this.responsesData[i][key] != 'string') {
           continue;
         }
-        let splited = this.responsesData[i][key].split('.');
+        let splited = this.responsesData[i][key].toLowerCase().split('.');
         if(fileExtension.indexOf(splited[splited.length - 1]) > -1) {
           this.imagesLinks.push(this.responsesData[i][key]);
         }
       }
     }
+    console.log('this.responsesData >>>', this.responsesData);
   }
 
   async waitUntilEmailDelivered() {
