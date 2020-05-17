@@ -1,6 +1,8 @@
 # To install project run commands:
-  npm install
-  npm run webdriver-update
+```console
+npm install
+npm run webdriver-update
+```
 Then create the config.js file in the root directory with the following structure:
 ```javascript
   module.exports = {
@@ -15,6 +17,10 @@ Then create the config.js file in the root directory with the following structur
 
 # To start the project
 navigate to project folder and run
-  npm start
+```console
+npm start
+```
 or if you are using global protractor version:
-  protractor protractor.conf.js
+```console
+protractor protractor.conf.js
+```
