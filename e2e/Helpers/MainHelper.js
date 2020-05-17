@@ -49,7 +49,6 @@ class MainHelper {
         }
       }
     }
-    console.log('this.responsesData >>>', this.responsesData);
   }
 
   async waitUntilEmailDelivered() {
